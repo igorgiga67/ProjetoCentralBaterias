@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font: 800;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+span {
+    color: #000;
+}
+
+.logo span {
+    color: #000;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 10%;
+    padding-right: 10rem;
+    margin-top: 3rem;
+    background-color: rgb(255, 255, 0);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header img{
+    mix-blend-mode: multiply;
+    width: 4em;
+}
+
+.navbar a {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-left: 5rem;
+    font-weight: 700;
+    transition: 0.3 ease-in-out;
+    border-bottom: 3px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    border-bottom: 2px solid #000;
+}
+
+section{
+    min-height: 100vh;
+    padding: 0rem 0% 10rem;
+}
+
+.number{
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    color: aliceblue;
+}
+
+.number a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(255, 255, 255);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #ffff00;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(249, 249, 0);
+}
+
+.btn i{
+   color: green;
+}
